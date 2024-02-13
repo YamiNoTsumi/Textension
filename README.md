@@ -1,7 +1,7 @@
 # Textension
  This is a Google Chrome Extension for making Notes, a little tool needed for personal use.
 
-1. Download `Textension.zip`
+1. Download [Textension.zip](https://github.com/YamiNoTsumi/Textension/releases/download/Extension/Textension.zip)
 2. Unzip
 3. Go to `chrome://extensions/` in Google Chrome
 4. Turn on Developer Mode at the top right
