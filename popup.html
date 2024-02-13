@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #282828;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    #textArea {
+      width: 300px;
+      max-height: 200px;
+      max-width: 400px;
+      min-width: 100px;
+      min-height: 50px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+      padding: 10px;
+      background-color: #383838;
+      color: white;
+    }
+    #saveButton {
+      width: 100%; 
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #4CAF50;
+      color: #fff;
+      cursor: pointer;
+    }
+    #saveButton:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <textarea id="textArea" rows="10" cols="30"></textarea>
+  <button id="saveButton">Save</button>
+  <script src="popup.js"></script>
+</body>
+</html>
